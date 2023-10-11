@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#8BBCE3"
+    android:layout_height="match_parent"
+    tools:context=".DepartmentActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Computer Science and Engineering"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:padding="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/purple_200"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <TextView
+            android:id="@+id/c1y"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1st YEAR"
+            android:gravity="center"
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/purple_200"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <TextView
+                android:id="@+id/c3y"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3rd YEAR"
+                android:gravity="center"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </androidx.cardview.widget.CardView>
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/c2y"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:clickable="true"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginEnd="20dp"-->
+<!--            android:layout_marginStart="175dp"-->
+<!--            android:backgroundTint="@color/purple_200"-->
+<!--            app:cardCornerRadius="30dp"-->
+<!--            app:cardElevation="20dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="2nd YEAR"-->
+<!--                android:clickable="true"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/white"/>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="175dp"
+            android:backgroundTint="@color/purple_200"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <TextView
+                android:id="@+id/c4y"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4th YEAR"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:clickable="true"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+<!--        ECE-->
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electronics and Communication Engineering"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_marginTop="80dp"
+                android:padding="20dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="@color/purple_200"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="20dp">
+
+                    <TextView
+                        android:id="@+id/e1y"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1st YEAR"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="@color/purple_200"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="20dp">
+
+                    <TextView
+                        android:id="@+id/e3y"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3rd YEAR"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="175dp"
+                    android:backgroundTint="@color/purple_200"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="20dp">
+
+                    <TextView
+                        android:id="@+id/e2y"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2nd YEAR"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="175dp"
+                    android:backgroundTint="@color/purple_200"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="20dp">
+
+                    <TextView
+                        android:id="@+id/e4y"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4th YEAR"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <Button
+            android:id="@+id/c2y"
+            android:layout_marginTop="650dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="2nd YEAR"
+            android:layout_marginLeft="190dp"/>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
